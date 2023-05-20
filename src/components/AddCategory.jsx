@@ -22,7 +22,7 @@ export const AddCategory = ({onNewCategory}) => {
 
     return (
         
-        <form onSubmit={onSubmit}>
+        <form onSubmit={onSubmit} aria-label="form">
         {/* Tambien se puede escribir asi: <form onSubmit={ onSubmit }> por el es el misom el parametro y el valor */}
             <input 
                 type="text"
